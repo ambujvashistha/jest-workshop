@@ -15,3 +15,11 @@ test("Check for subtotal data type", () => {
     "Invalid subtotal",
   );
 });
+
+test("Check for invalid coupon", () => {
+  expect(() => calculateFinalAmount(100, "DISCOUNT")).toThrow("Invalid Coupon");
+});
+
+// test("Check for correct discount", () => {
+//   expect(calculateFinalAmount(1250, "SAVE10")).toBe(1087.5);
+// });

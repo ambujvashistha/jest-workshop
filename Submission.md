@@ -29,10 +29,11 @@ List each test you wrote and briefly explain **what bug or regression it prevent
 
 ---
 
-### 3. Test Name:
+### 3. Test Name: Check for invalid coupon
 
 **What it protects against:**
 
+    It prevents the situations where user passes invalid coupons (coupons which are not defined) and throws error.
 ---
 
 ### 4. Test Name:
