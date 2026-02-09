@@ -65,4 +65,6 @@ List each test you wrote and briefly explain **what bug or regression it prevent
 
 What is **one thing** you understood better about testing or CI after this workshop?
 
+    What I understood better is that how to test for different scenarios like it's different for when you expect an error or want to check if the expected value is equal to the returned value.
+
 
