@@ -36,9 +36,11 @@ List each test you wrote and briefly explain **what bug or regression it prevent
     It prevents the situations where user passes invalid coupons (coupons which are not defined) and throws error.
 ---
 
-### 4. Test Name:
+### 4. Test Name: Check for correct value for discount SAVE10
 
 **What it protects against:**
+
+    It checks whether the discount that being processed is correct for "SAVE10" coupon.
 
 ---
 

@@ -20,6 +20,6 @@ test("Check for invalid coupon", () => {
   expect(() => calculateFinalAmount(100, "DISCOUNT")).toThrow("Invalid Coupon");
 });
 
-// test("Check for correct discount", () => {
-//   expect(calculateFinalAmount(1250, "SAVE10")).toBe(1087.5);
-// });
+test("Check for correct value for discount SAVE10", () => {
+  expect(calculateFinalAmount(1250, "SAVE10")).toBe(1087.5);
+});
