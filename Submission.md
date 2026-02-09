@@ -20,9 +20,12 @@ List each test you wrote and briefly explain **what bug or regression it prevent
 
 ---
 
-### 2. Test Name:
+### 2. Test Name: Check for subtotal data type
 
 **What it protects against:**
+
+    It protects when the subtotal provided is not in correct data type which is number.
+
 
 ---
 

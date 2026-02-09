@@ -10,3 +10,8 @@ test("Check for invalid sub total", () => {
   );
 });
 
+test("Check for subtotal data type", () => {
+  expect(() => calculateFinalAmount("100", "DISCOUNT")).toThrow(
+    "Invalid subtotal",
+  );
+});
