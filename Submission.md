@@ -12,9 +12,11 @@
 
 List each test you wrote and briefly explain **what bug or regression it prevents**.
 
-### 1. Test Name:
+### 1. Test Name: Check for invalid sub total
 
-**What it protects against:**
+**What it protects against:** 
+
+    It protects those cases where the subtotal is negative, and this can never be negative.
 
 ---
 
