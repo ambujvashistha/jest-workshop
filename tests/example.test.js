@@ -23,3 +23,7 @@ test("Check for invalid coupon", () => {
 test("Check for correct value for discount SAVE10", () => {
   expect(calculateFinalAmount(1250, "SAVE10")).toBe(1087.5);
 });
+
+test("Check for correct value for discount FLAT50", () => {
+  expect(calculateFinalAmount(1250, "FLAT50")).toBe(1137.5);
+});

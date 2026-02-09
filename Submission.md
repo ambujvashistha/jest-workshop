@@ -44,9 +44,11 @@ List each test you wrote and briefly explain **what bug or regression it prevent
 
 ---
 
-### 5. Test Name:
+### 5. Test Name: Check for correct value for discount FLAT50
 
 **What it protects against:**
+
+    It checks whether the discount that being processed is correct for "FLAT50" coupon.
 
 ---
 

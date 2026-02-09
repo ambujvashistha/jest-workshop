@@ -27,6 +27,6 @@ function calculateFinalAmount(subtotal, coupon) {
 
   return Math.max(0, Math.round(total * 100) / 100);
 }
-console.log(calculateFinalAmount(1250, "SAVE10"));
+console.log(calculateFinalAmount(1250, "FLAT50"));
 
 module.exports = { calculateFinalAmount };
